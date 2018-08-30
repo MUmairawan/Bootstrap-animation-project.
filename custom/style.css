@@ -1,0 +1,219 @@
+body {
+  overflow-x: hidden;
+  height: 100%
+}
+
+.header-bg{
+	color:#ffffff;
+	background-image:linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),url(../images/header-bg.jpg);
+	background-repeat:none;
+	height:540px;
+	background-position:center; 
+	width:100%;
+	background-size: cover;
+	
+	  
+}
+.size{
+     font-size:20px;	
+}
+hr{
+	width:50px;
+	display:block;
+	
+background-color:blue;
+}
+container{
+	overflow:hidden;
+	
+}
+.mid-bg{
+	color:#ffffff;
+	background-image:linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),url(../images/testimonial-bg.jpg);
+	background-repeat:none;
+	height:400px;
+	background-position:center; 
+	width:100%;
+	background-size: cover;
+	
+	  
+}
+.mid-end-bg{
+	
+	background-color:black;
+	
+	height:160px;
+	 
+	width:100%;
+
+	
+	  
+}
+textarea{
+	
+height:90px;	
+}
+.footer-bg{
+	background-color:black;
+	
+	height:100px;
+	 margin-top:50px;
+	width:100%;
+
+	
+}
+.end-bg{
+	
+	
+	background-image:linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),url(../images/counter-bg.jpg);
+	background-attachment:fixed;
+	background-repeat:none;
+	height:400px;
+	background-position:center; 
+	width:100%;
+	background-size: cover;
+	
+	
+	
+}
+
+
+
+.rounded-circle{
+display: block;
+margin: auto;
+border-radius: 100%;
+border: 2px solid blue;
+}
+	
+.blue{
+	color:blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 992px) {
+    .size{
+        
+		margin-top:100px;
+		
+    }
+.mid-end-top{
+padding-top:50px;
+
+}	
+.tour{
+margin-left:15px;
+
+}	
+}
+
+
+@media only screen and (max-width: 768px) {
+    
+	.mid-end-bg{
+	
+	background-color:black;
+	
+	height:220px;
+	 
+	width:100%;
+    margin:0px;
+	padding:0px;
+	
+	  
+}
+.mid-end-bg{
+		
+	height:360px;
+	}
+	.tour{
+margin-left:15px;
+
+}	
+}
+
+@media only screen and (max-width: 468px) {
+    
+	.mid-end-bg{
+	
+	background-color:black;
+	
+	height:400px;
+	 
+	width:100%;
+    margin:0px;
+	padding:0px;
+	
+	  
+}
+	.mid-bg{
+		
+	height:600px;
+	}
+	.footer-bg{
+			height:200px;
+}
+}
+
+
+
+@media only screen and (max-width: 592px) {
+   .header-bg{
+	
+	
+	height:780px;
+	background-position:center; 
+	width:100%;
+	background-size: cover;
+	
+	  
+}
+.image-header{
+	height:300px;
+	
+}
+.tour{
+	margin:0px;
+	
+}
+	
+}
+
+@media only screen and (max-width: 375px) {
+	
+	.mid-bg{
+		
+	height:600px;
+	}
+	.footer-bg{
+			height:200px;
+}
+.contact .fa{
+margin-top:5px;	
+padding:5px;
+}
+.container i{
+	font-size:20px;
+}
+.mid-end-bg{
+	height:400px;
+}
